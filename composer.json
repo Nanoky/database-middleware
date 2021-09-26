@@ -1,0 +1,19 @@
+{
+    "name": "nanok/database-middleware",
+    "description": "This library give an unified interface to access your databases",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nanok\\DatabaseMiddleware\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Konan Yao Charles",
+            "email": "konancharlesyao@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
