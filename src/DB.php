@@ -5,7 +5,7 @@
     class DB
     {
         const SGBD_SQLITE = "sqlite";
-        const SGBD_MYSQL = "sqlite";
+        const SGBD_MYSQL = "mysql";
 
         /**
          * @param array $config Database configs. Must contains at least 'sgbd' field
@@ -15,7 +15,7 @@
             try {
                 switch ($config['sgbd']) {
                     case DB::SGBD_SQLITE:
-                        $this->db = new \PDO($config['sgbd'] . ":" . dirname(__FILE__) . "/" . $config['file']);
+                        $this->db = new \PDO($config['sgbd'] . ":" . $config['file']);
                         break;
 
                     case DB::SGBD_MYSQL:
