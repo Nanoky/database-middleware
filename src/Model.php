@@ -150,7 +150,7 @@
 
                 $output = [];
                 foreach ($result as $key => $value) {
-                    $output[] = new $class(extract($value));
+                    $output[] = new $class($value);
                 }
 
                 return $output;
