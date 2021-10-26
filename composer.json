@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Nanok\\DatabaseMiddleware\\": "src/"
+            "Bakangoa\\Middleware\\Database\\": "src/"
         }
     },
     "authors": [

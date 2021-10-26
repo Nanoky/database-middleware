@@ -1,6 +1,6 @@
 <?php
 
-    namespace Goa\Middleware\Database;
+    namespace Bakangoa\Middleware\Database;
 
     abstract class Model implements ModelFunction
     {
@@ -199,7 +199,7 @@
 
 
 
-    namespace Goa\Middleware\Database;
+    namespace Bakangoa\Middleware\Database;
 
     interface ModelFunction {
 
@@ -221,7 +221,7 @@
     }
 
 
-    namespace Goa\Middleware\Database;
+    namespace Bakangoa\Middleware\Database;
 
     interface ModelInterface
     {

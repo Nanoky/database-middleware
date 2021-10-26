@@ -1,6 +1,6 @@
 <?php
 
-    namespace Goa\Middleware\Database;
+    namespace Bakangoa\Middleware\Database;
 
     class DB
     {
