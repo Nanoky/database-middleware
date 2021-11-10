@@ -58,7 +58,7 @@
         }
 
         /**
-         * Function which update a model in a table of database
+         * Function which update a model in a table of the database
          * @param mixed $id_name Table primary key name
          * @param $as_many_id Is true if the table as many field as primary key else false
          */
@@ -218,18 +218,6 @@
          */
         public function delete();
 
-    }
-
-
-    namespace Bakangoa\Middleware\Database;
-
-    interface ModelInterface
-    {
-        public function all();
-        public function findById(Array $id);
-        public function save();
-        public function update();
-        public function delete();
     }
 
     
