@@ -2,7 +2,7 @@
 
     namespace Bakangoa\Middleware\Database;
 
-    abstract class Model implements ModelFunction
+    abstract class Model implements ModelInterface
     {
 
         protected $db;
@@ -201,7 +201,7 @@
 
     namespace Bakangoa\Middleware\Database;
 
-    interface ModelFunction {
+    interface ModelInterface {
 
         /**
          * Function which save a model in database
